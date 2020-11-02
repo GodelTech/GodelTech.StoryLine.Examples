@@ -1,0 +1,9 @@
+﻿namespace GodelTech.StoryLine.Wiremock.Example.Contracts
+{
+    public class UserCollection
+    {
+        public User[] Items { get; set; }
+
+        public int Count { get; set; }
+    }
+}
